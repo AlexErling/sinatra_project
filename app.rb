@@ -2,7 +2,7 @@
 # run with `ruby app.rb`
 require "./nancy"
 
-get "/bare-get" do
+get "/" do
   "Hey, how is it going!"
 end
 
